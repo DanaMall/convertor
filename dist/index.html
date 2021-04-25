@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+              name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Convertor</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="incomes-inner">
+                    <h2 class="title">Доходи</h2>
+                    <div class="income income-title">
+                        <span class="currency-value incomes-title">Валюта</span>
+                        <span class="sum-value incomes-title">Сума</span>
+                        <span class="date-value incomes-title">Дата</span>
+                        <span class="del incomes-title"></span>
+                    </div>
+                    <div class="incomes">
+
+                    </div>
+                </div>
+                <button class="submit">
+                    Підтвердити
+                </button>
+                <hr>
+                <div class="add-field">
+                    <h2 class="title">Додати новий дохід</h2>
+                    <label>
+                        Валюта
+                        <select name="add-currency"> <!--Supplement an id here instead of using 'name'-->
+                            <option value="EUR" selected>Євро</option>
+                            <option value="USD">Долар</option>
+                            <option value="RUB">Рубль</option>
+                            <option value="PLN">Польський злотий</option>
+                            <option value="GBP">Фунт стерлінгів</option>
+                            <option value="CHF">Швейцарський франк</option>
+                        </select>
+                    </label>
+                    <label>
+                        Сума
+                        <input name="add-sum" type="text">
+                    </label>
+                    <label>
+                        Дата
+                        <input name="add-date" type="date">
+                    </label>
+                </div>
+                <button class="add">
+                    Додати
+                </button>
+                <hr>
+                <div class="results">
+                    <div class="rate-inner">
+                        <h2 class="title">Курс</h2>
+                        <div class="rate-header">
+                            <div class="rate-title rate-currency">Валюта</div>
+                            <div class="rate-title rate-rate">Курс</div>
+                            <div class="rate-title rate-date">Дата</div>
+                        </div>
+
+                        <div class="rates">
+                            <span class="press-submit">Натисніть "підтвердити"</span>
+                        </div>
+                    </div>
+
+                    <div class="result-inner">
+                        <h2 class="title">Результат</h2>
+                        <div class="result-header">Всього</div>
+                        <div class="result">
+                            <span class="press-submit">Натисніть "підтвердити"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>

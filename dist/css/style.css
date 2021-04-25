@@ -1,0 +1,187 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.income {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.income-title {
+    border-bottom: none;
+}
+
+.currency-value {
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+
+.sum-value {
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+
+.date-value {
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+
+.delete {
+    display: block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.del {
+    display: block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.income {
+    background-color: beige;
+}
+
+.income-title, .rate-header, .result-header {
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.result-header {
+    padding-left: 20px;
+}
+
+.rate-header {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.rates {
+    display: block;
+}
+
+.rate-inner {
+    width: 400px;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: beige;
+}
+
+.rate-currency {
+    width: 120px;
+    text-align: center;
+}
+
+.rate-rate {
+    width: 120px;
+    text-align: center;
+}
+
+.rate-date {
+    width: 120px;
+    text-align: center;
+}
+
+.submit, .add {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input, select {
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.result-inner {
+    width: 350px;
+}
+
+.result-total {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: beige;
+}
+
+.result-total-earned {
+    background-color: #eee794;
+}
+
+.result-tax {
+    background-color: #eee794;
+}
+
+.press-submit {
+    display: block;
+    color: gray;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
